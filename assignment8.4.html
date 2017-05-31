@@ -1,0 +1,48 @@
+
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @SwatiShankar
+ Sign out
+ Watch 1
+  Star 0
+  Fork 0 ShruthiShankar/Assignment8.4
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
+Branch: master Find file Copy pathAssignment8.4/Assignment8.4.html
+5911430  16 days ago
+@ShruthiShankar ShruthiShankar fourth assignment of 8th session
+1 contributor
+RawBlameHistory     
+29 lines (29 sloc)  620 Bytes
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+/*below lines of code will change the link as well as text of the anchor tag upon mouseenter*/
+$(document).ready(function(){
+	$('a').mouseenter(function(){
+		$('a').text("Acadgild - jQuery Tutorial");
+		$('a').attr("href","http://www.google.com");
+	});
+});
+</script>
+<style>
+p {
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+}
+a {
+	font-size: 30px;
+}
+</style>
+</head>
+<body>
+<p><a href="www.acadgild.com" id="acadgild" target="_blank">jQuery Tutorial</a></p>
+</body>
+</html>
